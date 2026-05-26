@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typography Example</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>
+        Welcome to City Portal
+    </h1>
+    <div class="content">
+        <h2>
+            About Us
+        </h2>
+        <p class="description">
+            This portal provides information about city events and public services.
+        </p>
+    </div>
+</body>
+</html>
