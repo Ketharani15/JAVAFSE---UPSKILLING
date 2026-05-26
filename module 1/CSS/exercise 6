@@ -18,3 +18,41 @@
     </ul>
 </body>
 </html>
+
+
+
+
+
+//CSS
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green;
+}
+a:visited {
+    color: purple;
+}
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+.city-list {
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 20px;
+    padding: 10px;
+}
+.city-list li {
+    padding: 5px;
+    margin: 5px;
+}
