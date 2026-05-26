@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Link and List Styling</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <ul class="city-list">
+        <li>Chennai</li>
+        <li>Coimbatore</li>
+        <li>Madurai</li>
+    </ul>
+</body>
+</html>
