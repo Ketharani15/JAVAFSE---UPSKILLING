@@ -32,3 +32,30 @@
     </table>
 </body>
 </html>
+
+
+
+
+
+
+
+//CSS
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+th {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+}
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
