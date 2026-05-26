@@ -19,4 +19,43 @@
         </p>
     </div>
 </body>
-</html>
+</html
+
+
+
+
+
+
+
+
+
+
+//CSS
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: darkblue;
+}
+h2 {
+    font-size: 28px;
+    font-style: italic;
+    color: darkgreen;
+}
+.description {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: #444444;
+}
+
+
+
