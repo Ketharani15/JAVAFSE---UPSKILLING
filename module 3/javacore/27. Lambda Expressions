@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class LambdaSortExample {
+    public static void main(String[] args) {
+        List<String> names = new ArrayList<>();
+        names.add("kohila");
+        names.add("Ravi");
+        names.add("zara");
+        names.add("anu");
+        Collections.sort(names, (a, b) -> a.compareTo(b));
+        System.out.println("Sorted List:");
+        for (String name : names) {
+            System.out.println(name);
+        }
+    }
+}
