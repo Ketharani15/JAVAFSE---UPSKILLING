@@ -1,0 +1,33 @@
+// JAVA PROGRAM 
+
+public class Main {
+    public void greet() {
+        System.out.println(
+            "Welcome to Java"
+        );
+    }
+    public static void main(String[] args) {
+        Main obj = new Main();
+        obj.greet();
+    }
+}
+
+//COMPILE
+javac Main.java
+
+//DECOMPILE
+java -jar cfr.jar Main.class
+
+//DECOMPILED SOURCE
+public class Main {
+    public void greet() {
+        System.out.println(
+            "Welcome to Java"
+        );
+    }
+    public static void main(String[] args) {
+        Main obj = new Main();
+        obj.greet();
+    }
+}
+
